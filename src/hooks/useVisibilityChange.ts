@@ -34,7 +34,7 @@ const getVisibilityState = () => {
         return false;
     }
 
-    const { hidden = "" } = getVisibilityAttrs();
+    const { hidden } = getVisibilityAttrs();
     // @ts-ignore
     return document[hidden];
 };
