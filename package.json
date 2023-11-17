@@ -1,9 +1,10 @@
 {
   "version": "0.0.1",
   "main": "./dist/index.js",
-  "name": "@tradelunch/reacthooks",  
+  "name": "@tradelunch/reacthooks",
   "dependencies": {
     "react": "^18.2.0",
+    "rxjs": "^7.8.1",
     "typescript": "^5.2.2"
   },
   "devDependencies": {
